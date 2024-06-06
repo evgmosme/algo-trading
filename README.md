@@ -48,6 +48,3 @@ To deploy this DAG:
 2. Verify that the PostgreSQL server is running and accessible.
 3. Adjust the DAG and task settings as needed.
 4. Activate the DAG via the Airflow dashboard.
-
-## Conclusion
-This DAG provides a scalable, efficient solution for financial data analysts and quantitative traders requiring real-time access to substantial volumes of stock data. Leveraging modern data engineering tools and practices, it ensures that critical market data is timely, accurate, and readily accessible for decision-making and analytics.
