@@ -2,7 +2,7 @@ This repository contains an Apache Airflow DAG designed to stream live stock quo
 
 ## Features
 - **Data Coverage**: Streams live quotes and 1-minute bars for 3000 Russell index stocks.
-- **High Volume Handling**: Capable of processing approximately 80 million quotes and 70,000 1-minute bars daily.
+- **High Volume Handling**: Capable of processing approximately 80 million quotes and 700.000 1-minute bars daily.
 - **Precision Timing**: Aligns operations with US stock market timings, ensuring data is captured throughout the trading day.
 - **Data Integrity and Storage**: Utilizes PostgreSQL with TimescaleDB extension for efficient large-scale time-series data handling.
 - **Robust Error Handling and Logging**: Detailed logging for error tracking and operational integrity ensures reliable data insertion and system stability.
