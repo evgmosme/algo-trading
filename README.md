@@ -1,4 +1,4 @@
-# Alpaca Quote Bars Stream DAG
+# Live Quote and Bars Streaming from Alpaca Trade Broker
 
 ## Overview
 This Airflow Directed Acyclic Graph (DAG) is designed to manage the streaming and storage of live stock data for the 3000 stocks listed in the Russell 3000 index. It operates every working day from the US stock market's premarket opening to the aftermarket close, fetching live quotes and 1-minute bars and inserting them into a TimescaleDB hypertable for robust time-series data management.
